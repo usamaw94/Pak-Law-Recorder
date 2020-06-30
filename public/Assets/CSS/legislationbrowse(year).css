@@ -1,0 +1,108 @@
+.source-container{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    border-bottom: 2px solid #800000;
+}
+
+.source-container h4 a{
+    font-weight: bold;
+}
+.source-container h4 a:hover{
+    border-bottom: 2px solid #333333;
+}
+
+.source-container h4 a.active-option {
+    color: #800000;
+    border-bottom: 2px solid #800000;
+}
+
+.top-data {
+    text-align: center;
+}
+
+.list-unstyled li a:hover {
+    color: #800000;
+}
+
+.source-container {
+    padding-bottom: 10px;
+}
+
+.source-container h5{
+    color: #800000;
+}
+.source-container a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #333333;
+}
+.source-container a:hover{
+    font-weight: bold;
+}
+.source-container ul{
+    margin-top: 20px;
+}
+.source-container li{
+    margin-bottom: 15px;
+}
+
+.search-bar.form-control {
+    display: inherit;
+    font-size: 15px;
+    color: #333333;
+    border: 1px solid gainsboro;
+}
+.search-bar.form-control:focus {
+    border: solid thin #6a6a6a;
+    box-shadow: 0 1px 1px rgba(0, 102, 34 , 0.075) inset, 0 0 8px rgba(51, 51, 51, 0.94) !important;
+    outline: 0 none !important;
+}
+.search-bar-container{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.year-search {
+    margin-top: 20px;
+}
+
+.date-labl label{
+    width: 100%;
+    text-align: right;
+    color: #333333;
+    font-weight: normal;
+}
+
+.control-label{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.input-group-addon {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+.btn.submit-search{
+    border-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    background: #333333;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn.submit-search:hover{
+    background: #800000;
+}

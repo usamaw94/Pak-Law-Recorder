@@ -1,0 +1,123 @@
+.right-content{
+    padding-top: 10px;
+}
+
+.details-container {
+    width: 90%;
+    margin-left: 5%;
+    background: #fdfdfd;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #800000;
+    background: #fdfdfd;
+    font-weight: bold;
+    border-radius: 0;
+    border-bottom: 2px solid #800000;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #fdfdfd;
+    border-radius: 0;
+    border-bottom: 2px solid #333333;
+    color: #333333;
+}
+.nav a{
+    color: #333333;
+}
+
+/*----------Legislation-----------------------*/
+
+.leg-searchresult{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: auto;
+}
+
+.results .row{
+    margin-top: 10px;
+}
+
+.results{
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #800000;
+}
+.results a{
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color: #800000;
+    transition: 0.3s;
+}
+
+.results a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*--------------------------------------------*/
+
+/*------------Case Law------------------------*/
+
+.case-details {
+    margin-top: 10px;
+    padding-top: 10px;
+    height: auto;
+}
+.case-details .case .row{
+    margin-top: 10px;
+}
+
+.case{
+    padding-bottom: 10px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid #800000;
+}
+.case a{
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color: #800000;
+    transition: 0.3s;
+}
+
+.case a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*--------------------------------------------*/
+
+/*-----------------SRO's----------------------*/
+
+.sro-searchresult{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+.sro-searchresult .results .row{
+    margin-top: 10px;
+}
+
+.sro-searchresult .results{
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid #800000;
+}
+.sro-searchresult .results a{
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color: #800000;
+    transition: 0.3s;
+}
+
+.sro-searchresult .results a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*--------------------------------------------*/

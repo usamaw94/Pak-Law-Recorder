@@ -1,0 +1,64 @@
+.list-container {
+    height: 75%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+}
+.left-heading {
+    margin-left: 10px;
+}
+.left-link {
+    color: #333333;
+}
+.left-link:hover {
+    color: #800000;
+    font-weight: bold;
+}
+.left-list {
+    font-size: 14px;
+    padding: 0px;
+}
+.left-list:hover {
+    background: none;
+}
+
+.btn-download {
+    width: 100%;
+    border-radius: 0;
+    background: #800000;
+    font-family: 'myFirstFont';
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn-download:hover {
+    background: #333333;
+    color: white;
+}
+
+.right-content {
+    font-family: Arial;
+}
+.right-data-container {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.right-heading {
+    padding-right: 0px;
+    text-align: right;
+    font-weight: bold ;
+}
+
+.right-heading-content {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #800000;
+}
+
+@media (max-width: 1030px) {
+    .right-heading {
+        text-align: left;
+    }
+
+}

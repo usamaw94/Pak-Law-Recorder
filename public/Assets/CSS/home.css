@@ -1,0 +1,237 @@
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+#main-content {
+    margin-top: 90px;
+    float: left;
+    clear: left;
+    width: 100%;
+    display: inline-block;
+    height: 570px;
+    background-image: url("../Images/law-firms.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.brand-name {
+    margin-bottom: 120px;
+    font-family: brandfont;
+}
+
+.search-panel {
+    margin-top: 180px;
+    width : 76%;
+    height: auto;
+
+    background: white;
+    border: 30px solid rgba(0, 0, 0, 0.2);
+
+    border-radius: 0;
+
+    /* NOT REAL */
+    background-radius: 0;
+
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+    background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+    -moz-background-clip: content;     /* Firefox 3.6 */
+    -webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+    background-clip: content-box;
+}
+.search-panel-data {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: white;
+    padding-bottom: 38px;
+}
+.search-inst {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.search::-webkit-input-placeholder {
+    color: #c0c0c0;
+    font-style: italic;
+}
+.search:-moz-placeholder {
+    color: #c0c0c0;
+    font-style: italic;
+}
+.search::-moz-placeholder  {
+    color: #c0c0c0;
+    font-style: italic;
+}
+.search:-ms-input-placeholder {
+    color: #c0c0c0;
+    font-style: italic;
+}
+.list-inline>.search-feild {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.input-group {
+    width: 80%;
+}
+
+.form-control{
+    display: inherit;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+}
+.form-control:focus{
+    border: solid thin #500000;
+    box-shadow: 0 1px 1px rgba(0, 102, 34 , 0.075) inset, 0 0 8px rgba(80, 0, 0, 0.94) !important;
+    outline: 0 none !important;
+}
+.btn-search {
+    background: #800000;
+    border-radius: 0;
+    color: white;
+    height: inherit;
+}
+.btn-search:hover {
+    background: #333333;
+    border-radius: 0;
+    color: white;
+}
+#footer {
+    float: left;
+    clear: left;
+    width: 100%;
+    background: white;
+}
+.footer-note {
+    padding-top: 100px;
+    background: white;
+    padding-right: 12%;
+    padding-left: 12%;
+    text-align: justify;
+    color: #800000;
+    font-style: italic;
+    height: auto;
+    padding-bottom: 100px;
+}
+.footer-links {
+    border-top: 3px solid #800000;
+    background: #333333;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 15px;
+    width: 100%;
+    color: white;
+}
+.footer-table-left {
+    float: left;
+    width: 60%;
+    color: white;
+}
+.footer-table-right {
+    float: right;
+    text-align: right;
+    margin-right: 0;
+    width: 100px;
+}
+a.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+a.footer-link:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+a.footer-link2 {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+a.footer-link2:hover {
+    font-size: 20px;
+    color: lightgray;
+    text-decoration: none;
+}
+.footer-logo {
+    height: 50px;
+}
+
+@media (max-width: 910px) {
+    .footer-table-left {
+        width: 100%;
+        color: white;
+    }
+}
+
+@media (max-width: 570px) {
+    .search-panel {
+        margin-top: 90px;
+    }
+    .footer-note {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 547px) {
+    .search-panel {
+        width: 100%;
+    }
+    .footer-note {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .search-panel-data {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer-logo {
+        width: 100px;
+        height: 30px;
+    }
+
+}
+@media (max-width: 850px) {
+    .logo {
+        height: 40px;
+    }
+    .search-panel {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .logo {
+        height: 30px;
+    }
+    .search-panel {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 270px) {
+    .logo {
+        height: 25px;
+    }
+    .search-panel {
+        margin-top: 0px;
+    }
+    .footer-logo {
+        width: 90px;
+        height: 25px;
+    }
+}

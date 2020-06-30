@@ -1,0 +1,2 @@
+INSERT INTO `legislations` (`id`, `title`, `year`, `free_text`, `provisions`, `created_at`, `updated_at`) VALUES (NULL, 
+'', '', '', '', NULL, NULL);

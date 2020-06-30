@@ -1,0 +1,76 @@
+.right-inner-content {
+    width: 80%;
+    padding-left: 0px;
+}
+
+.form-container {
+    width: inherit;
+    height: auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #800000;
+}
+
+.search-form{
+    display: inherit;
+    font-size: 15px;
+    color: #333333;
+    border: 1px solid gainsboro;
+}
+.search-form:focus {
+    border: solid thin #6a6a6a;
+    box-shadow: 0 1px 1px rgba(0, 102, 34 , 0.075) inset, 0 0 8px rgba(51, 51, 51, 0.94) !important;
+    outline: 0 none !important;
+}
+.row{
+    margin-top: 10px;
+}
+.form-container label{
+    width: 100%;
+    text-align: right;
+    color: #333333;
+    font-weight: normal;
+}
+
+.control-label{
+    margin-top: 5px;
+}
+
+.btns.col-md-2, .btns.col-sm-2{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.search-cont {
+    margin-top: 0px;
+}
+
+.search-btn{
+    background: #800000;
+    border: 2px solid #800000;
+    height: 45px;
+    width: 100%;
+    color: white;
+    margin-bottom: 0px;
+    transition: 0.3s;
+}
+
+.search-btn:hover{
+    border-color: #333333;
+    background: #333333;
+    color: white;
+}
+@media (max-width: 1103px) {
+    .control-label{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 992px) {
+    .form-container label{
+        text-align: left;
+    }
+}
+@media (max-width: 360px){
+    .right-inner-content{
+        width: 100%;
+    }
+}

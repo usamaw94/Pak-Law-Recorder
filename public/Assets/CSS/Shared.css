@@ -1,0 +1,323 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Font/Roboto-Light.ttf);
+}
+body {
+    font-family: 'myFirstFont';
+}
+/*///////////// Header /////////////*/
+
+#wrapper {
+    width: 100%;
+    height:100%;
+}
+#head{
+    float: left;
+    position: fixed;
+    top: 0;
+    background: white;
+    left:0;
+    right: 0;
+    height: 90px;
+    min-height: 90px;
+    width: 100%;
+    z-index: 50;
+    border-bottom: 1px solid #cccccc;
+}
+.logo {
+    height: 60px;
+}
+a.header-link {
+    color: #333333;
+    text-decoration: none;
+}
+a.header-link:hover {
+    color: #800000;
+    text-decoration: none;
+}
+.icon-bar {
+    min-height: 3px;
+    background: #800000;
+}
+.navbar-toggle {
+    border-radius: 0;
+    border: 2px solid #800000;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+    background-color: white;
+}
+.navbar-nav {
+    margin: 21px;
+    margin-right: 0px;
+    background-color: white;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 17px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav > li > a.header-link:hover{
+    transition: 0.1s;
+    background: none;
+    color: #800000;
+    border-bottom: 1px solid #333333;
+}
+
+/*///////////////// Media queries for Header Logo /////////////////*/
+@media (max-width: 850px) {
+    .logo {
+        height: 40px;
+    }
+    .search-panel {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 390px) {
+    .logo {
+        height: 40px;
+    }
+    .search-panel {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 310px) {
+    .logo {
+        height: 28px;
+    }
+}
+
+/*///////////////// Main Content /////////////////*/
+
+#main-content {
+    margin-top: 90px;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+/*///////// Menu Bar /////////*/
+
+.sub-menu {
+    background: #2b2b2b;
+    border-top: 1px solid #959595;
+    border-bottom: 2px solid #959595;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-tabs.nav-justified>li>a.sub-menu-link {
+    border-radius : 0;
+}
+
+.nav-tabs.nav-justified>.active>a.sub-menu-link, .nav-tabs.nav-justified>.active>a.sub-menu-link:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border-bottom: 2px solid #800000;
+    background: #800000;
+    color: #ffffff;
+}
+.nav-tabs.nav-justified>.active>a.sub-menu-link, .nav-tabs.nav-justified>.active>a.sub-menu-link:focus, .nav-tabs.nav-justified>.active>a.sub-menu-link:hover {
+    border: none;
+}
+.nav-tabs.nav-justified>.active>a.sub-menu-link, .nav-tabs.nav-justified>.active>a.sub-menu-link:focus, .nav-tabs.nav-justified>.active>a.sub-menu-link:hover {
+    border-bottom: 2px solid #800000;
+}
+.nav-tabs.nav-justified>li>a {
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs>li>a:hover {
+    color: white;
+    border-bottom: 2px solid #800000;
+}
+.nav-tabs.nav-justified {
+    width: 90%;
+    border-bottom: 0;
+    padding-left: 23%;
+}
+.nav>li>a.sub-menu-link:focus, .nav>li>a.sub-menu-link:hover {
+    text-decoration: none;
+    border-top: #2b2b2b;
+    border-left: #2b2b2b;
+    border-right: #2b2b2b;
+    border-bottom: 2px solid #800000;
+    background: #555555;
+    font-size: 16px;
+}
+a.sub-menu-link {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sub-menu-toggle .sub-menu-bar+.sub-menu-bar {
+    margin-top: 5px;
+}
+
+.sub-menu-toggle {
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-toggle .sub-menu-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+}
+
+.sub-menu-bar {
+    min-height: 3px;
+    background: white;
+}
+
+/*///////////////// Media queries for Sub-Menu Bar  /////////////////*/
+
+@media (max-width: 767px) {
+    .nav-tabs.nav-justified>li>a.sub-menu-link {
+        border-radius: 0;
+    }
+}
+
+/*///////// Content /////////*/
+
+#content {
+    margin-top: 47px;
+}
+
+/*///////////////// Left Content /////////////////*/
+
+.left-content {
+    float: left;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    color: #333333;
+    padding-top: 1%;
+    background: gainsboro;
+    border-right: 1px solid #a5a5a5;
+    border-top: 2px solid #cccccc;
+}
+
+.left-inner-content {
+   width: inherit;
+    position: fixed;
+    height: 70%;
+    margin-top: 2%;
+}
+.list-unstyled {
+    margin-left: 10px;
+}
+
+.list-container.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.left-list {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.left-list:hover {
+    background: #333333;
+}
+
+.list-active {
+    background: #800000;
+    color: white;
+}
+
+.left-link{
+    color: #333333;
+    text-decoration: none;
+}
+.left-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*///////////////// Media queries for Left Content /////////////////*/
+
+@media (max-width: 768px) {
+    .list-unstyled {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 621px) {
+    .left-heading {
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .left-list {
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+}
+@media (max-width: 430px) {
+    .left-heading {
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .left-list {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 2px;
+        padding-top: 3px;
+    }
+
+}
+@media (max-width: 340px) {
+    .left-heading {
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .left-list {
+        font-size: 8px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+}
+
+/*///////////////// Right Content /////////////////*/
+
+.right-content {
+    float: right;
+    width: 80%;
+    border-top: 2px solid #cccccc;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.right-content-heading {
+    color: #800000;
+}
+
+.right-content-seperator {
+    border: 1px solid #800000;
+}

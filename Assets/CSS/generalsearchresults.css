@@ -1,0 +1,108 @@
+.right-content{
+    padding-top: 10px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: white;
+    background-color: #800000;
+    transition: 0.3s;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #333333;
+    color: white;
+    transition: 0.3s;
+}
+.nav a{
+    color: #333333;
+}
+
+/*----------Legislation-----------------------*/
+
+.leg-searchresult{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: auto;
+    background: rgba(51, 51, 51, 0.18);
+}
+
+.results .row{
+    margin-top: 10px;
+}
+
+.results{
+    margin: 10px 0px 10px 0px;
+    border-bottom: 2px solid #333333;
+}
+.results a{
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color: #800000;
+    transition: 0.3s;
+}
+
+.results a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*--------------------------------------------*/
+
+/*------------Case Law------------------------*/
+
+.details-container {
+    padding-top: 10px;
+    height: auto;
+    background: rgba(51, 51, 51, 0.18);
+}
+.case{
+    margin: 10px 0px 10px 0px;
+    border-bottom: 3px solid #800000;
+}
+.case a{
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color: #800000;
+    transition: 0.3s;
+}
+
+.case a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*--------------------------------------------*/
+
+/*-----------------SRO's----------------------*/
+
+.sro-searchresult{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: auto;
+    background: rgba(51, 51, 51, 0.18);
+}
+
+.sro-searchresult .results .row{
+    margin-top: 10px;
+}
+
+.sro-searchresult .results{
+    margin: 10px 0px 10px 0px;
+    border-bottom: 2px solid #333333;
+}
+.sro-searchresult .results a{
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    color: #800000;
+    transition: 0.3s;
+}
+
+.sro-searchresult .results a:hover{
+    text-decoration: underline;
+    color: #333333;
+}
+
+/*--------------------------------------------*/

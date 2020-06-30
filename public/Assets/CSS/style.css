@@ -1,0 +1,69 @@
+@font-face {
+    font-family: brandfont;
+    src: url(../Font/BKANT.TTF);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Font/Roboto-Light.ttf);
+}
+body {
+    font-family: 'myFirstFont';
+}
+#wrapper {
+    width: 100%;
+    height:100%;
+}
+#head{
+    float: left;
+    position: absolute;
+    top: 0;
+    background: white;
+    left:0;
+    right: 0;
+    height: 90px;
+    min-height: 90px;
+    width: 100%;
+    border-bottom: 2px solid #800000;
+    z-index: 50;
+}
+.logo {
+    height: 60px;
+}
+a.header-link {
+    color: #333333;
+    text-decoration: none;
+}
+a.header-link:hover {
+    color: #800000;
+    text-decoration: none;
+}
+.icon-bar {
+    min-height: 3px;
+    background: #800000;
+}
+.navbar-toggle {
+    border-radius: 0;
+    border: 2px solid #800000;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+    background-color: white;
+}
+.navbar-nav {
+    margin: 21px;
+    margin-right: 0px;
+    background-color: white;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 20px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav > li > a.header-link:hover{
+    transition: 0.1s;
+    background: none;
+    color: #800000;
+    border-bottom: 1px solid #800000;
+}

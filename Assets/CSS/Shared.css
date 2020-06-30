@@ -1,0 +1,278 @@
+body {
+    background: gainsboro;
+}
+
+/*///////////// Header /////////////*/
+
+#wrapper {
+    width: 100%;
+    height:100%;
+}
+#head{
+    float: left;
+    position: absolute;
+    top: 0;
+    background: white;
+    left:0;
+    right: 0;
+    height: 90px;
+    min-height: 90px;
+    width: 100%;
+    z-index: 50;
+}
+.logo {
+    height: 38px;
+}
+a.header-link {
+    font-weight: bold;
+    color: #800000;
+    text-decoration: none;
+}
+a.header-link:hover {
+    color: #500000;
+    text-decoration: none;
+}
+.icon-bar {
+    min-height: 3px;
+    background: #800000;
+}
+.navbar-toggle {
+    border-radius: 0;
+    border: 2px solid #800000;
+}
+.navbar-nav {
+    margin: 7.5px -15px;
+    background-color: white;
+}
+.navbar-nav {
+    margin: 21px;
+    margin-right: 0px;
+    background-color: white;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 25px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav > li > a.header-link:hover{
+    transition: 0.1s;
+    background: none;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+}
+
+/*///////////////// Media queries for Header Logo /////////////////*/
+
+@media (max-width: 320px) {
+    .logo {
+        height: 30px;
+    }
+    .search-panel {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 270px) {
+    .logo {
+        height: 25px;
+    }
+}
+
+/*///////////////// Main Content /////////////////*/
+
+#main-content {
+    margin-top: 90px;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+
+/*///////// Menu Bar /////////*/
+
+.sub-menu {
+    border-bottom: 3px solid #333333;
+    background: linear-gradient(to top,  #800000 50%, rgb(166, 78, 79) 100%);
+    z-index: 2000;
+}
+
+.nav-tabs.nav-justified>li>a.sub-menu-link {
+    border-bottom: 1px solid #800000;
+    border-radius: 7px 7px 0 0;
+}
+
+.nav-tabs.nav-justified>.active>a.sub-menu-link, .nav-tabs.nav-justified>.active>a.sub-menu-link:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border-bottom-color: #333333;
+    background: linear-gradient(to top,  #333333 50%, #707070 100%);
+    color: white;
+}
+.nav-tabs.nav-justified>.active>a.sub-menu-link, .nav-tabs.nav-justified>.active>a.sub-menu-link:focus, .nav-tabs.nav-justified>.active>a.sub-menu-link:hover {
+    border: 1px solid transparent;
+}
+.nav-tabs.nav-justified>.active>a.sub-menu-link, .nav-tabs.nav-justified>.active>a.sub-menu-link:focus, .nav-tabs.nav-justified>.active>a.sub-menu-link:hover {
+    border: 2px solid #333333;
+}
+.nav-tabs>li>a:hover {
+    border: 2px solid #333333;
+}
+.nav>li>a.sub-menu-link:focus, .nav>li>a.sub-menu-link:hover {
+    text-decoration: none;
+    border-bottom-color: #333333;
+    background: #6a6a6a;
+    color: white;
+}
+a.sub-menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-menu-toggle .sub-menu-bar+.sub-menu-bar {
+    margin-top: 5px;
+}
+
+.sub-menu-toggle {
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-toggle .sub-menu-bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 1px;
+}
+
+.sub-menu-bar {
+    min-height: 3px;
+    background: white;
+}
+
+/*///////////////// Media queries for Sub-Menu Bar  /////////////////*/
+
+@media (max-width: 767px) {
+    .nav-tabs.nav-justified>li>a.sub-menu-link {
+        border-radius: 0;
+    }
+}
+
+/*///////// Content /////////*/
+
+
+/*///////////////// Left Content /////////////////*/
+
+.left-content {
+    float: left;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    color: #333333;
+    padding-top: 20px;
+}
+
+.left-heading {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list-unstyled {
+    margin-left: 23px;
+}
+
+.list-container.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.left-list {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-left: 5px solid #333333;
+    transition: 0.3s;
+}
+
+a.left-link {
+    text-decoration: none;
+    color: #333333;
+}
+
+.list-active, .list-active a.left-link{
+    font-weight: bold;
+    color: #800000;
+    border-color: #800000;
+}
+
+.left-list:hover{
+    background: rgba(128, 0, 0, 0.25);
+}
+
+/*///////////////// Media queries for Left Content /////////////////*/
+
+@media (max-width: 768px) {
+    .list-unstyled {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 621px) {
+    .left-heading {
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .left-list {
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+}
+@media (max-width: 430px) {
+    .left-heading {
+        margin-top: 5px;
+        font-size: 13px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .left-list {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 2px;
+        padding-top: 3px;
+    }
+
+}
+@media (max-width: 340px) {
+    .left-heading {
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .left-list {
+        font-size: 8px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+}
+
+/*///////////////// Right Content /////////////////*/
+
+.right-content {
+    float: right;
+    width: 80%;
+}
